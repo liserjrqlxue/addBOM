@@ -92,7 +92,7 @@ go run main.go -i primer_ords.xlsx -o bom_output.xlsx
 我们欢迎任何建议和反馈！请通过邮箱或GitHub与我们联系。
 
 ## 许可证
-此项目采用MIT协议，具体内容见LICENSE文件。
+此项目采用 MIT 协议，具体内容见 [LICENSE](./LICENSE) 文件。
 
 ## 联系方式
 - 邮箱：[wangyaoshen@zhonghegene.com](mailto:wangyaoshen@zhonghegene.com)

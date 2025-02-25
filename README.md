@@ -96,12 +96,12 @@ Contributions are welcome! If you have any suggestions or find any issues, pleas
 
 ## License
 
-This project is MIT licensed. See the [LICENSE](LICENSE) file for details.
+This project is MIT licensed. See the [LICENSE](./LICENSE) file for details.
 
 ## Contact
 
 For questions or feedback, feel free to contact the maintainers:
-- Email: wangyaoshen@zhonghegene.com
+- Email: [wangyaoshen@zhonghegene.com](mailto:wangyaoshen@zhonghegene.com)
 - GitHub: [liserjrqlxue](https://github.com/liserjrqlxue)
 
 ---
