@@ -28,7 +28,7 @@ This project reads data from an Excel file containing primer purchase order info
 - Install directly
 
 ```bash
-go install liserjrqlxue/addBOM@latest
+go install github.com/liserjrqlxue/addBOM@latest
 ```
 
 - Compiling from source code

@@ -28,7 +28,7 @@
 ### 直接安装
 
 ```bash
-go install liserjrqlxue/addBOM@latest
+go install github.com/liserjrqlxue/addBOM@latest
 ```
 
 ### 源码编译
