@@ -42,6 +42,21 @@ go build #  create addBOM
 go install # to $GOPATH/bin/addBOM
 ```
 
+### Adding Right-Click Menu
+
+- only support `Windows` OS
+- required `powershell`
+- run `go install -ldflags="-H windowsgui`
+  - 
+
+### Adding Right-Click Menu
+
+- **Supported Systems** : Windows only
+- **Dependencies** : PowerShell
+- **Command to Run** : `go install -ldflags="-H windowsgui"`
+  - The parameter `-ldflags="-H windowsgui"` prevents the terminal window from appearing.
+- **Administrator Mode PowerShell Execution** : Run `./addRightClickMenu.ps1` in administrator mode to add `addBOM` to the right-click menu for `*.xlsx` files.
+
 ## Usage
 
 ### Command-line Arguments
@@ -60,6 +75,10 @@ go run main.go -i primer_orders.xlsx -o bom_output.xlsx
 ```
 
 This command reads data from `primer_orders.xlsx`, processes it, and saves the BOM to `bom_output.xlsx`.
+
+### Running the Right-Click Menu
+
+When you right-click on the input Excel file ``<input_ilename>.xlsx`, a context menu will appear. Selecting the `addBOM` option will execute the corresponding action, resulting in the generation of the output file ``<input_ilename>_BOM.xlsx`.
 
 ## Input File Structure
 

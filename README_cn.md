@@ -25,13 +25,13 @@
 
 ## 安装步骤
 
-- 直接安装
+### 直接安装
 
 ```bash
 go install liserjrqlxue/addBOM@latest
 ```
 
-- 源码编译
+### 源码编译
 
 ```bash
 git clone https://github.com/liserjrqlxue/addBOM.git
@@ -41,6 +41,14 @@ go build #  create addBOM
 # or 
 go install # to $GOPATH/bin/addBOM
 ```
+
+### 添加右键菜单
+
+- 仅支持 `Windows` 系统
+- 依赖 `powershell`
+- 运行 `go install -ldflags="-H windowsgui`
+  - 参数 `-ldflags="-H windowsgui"` 避免弹出terminal弹窗
+- 管理员模式 `powershell` 运行 `./addRightClickMenu.ps1` 将 `addBOM` 添加到 `*.xlsx` 注册表右键菜单
 
 ## 使用方法
 
@@ -60,6 +68,10 @@ go run main.go -i primer_ords.xlsx -o bom_output.xlsx
 ```
 
 此命令从 `primer_ords.lsx` 文件读取数据，进行处理后，将生成的BOM保存为 `bom_output.xlsx`。
+
+### 右键菜单运行
+
+对输入 excel `primer_ords.lsx` 文件右键弹出右键菜单，选择addBOM运行，生成 `primer_ords_BOM.xlsx`
 
 ## 输入文件结构
 
