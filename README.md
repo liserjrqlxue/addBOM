@@ -115,9 +115,10 @@ The output file includes custom styles to improve readability:
 
 ```
 .
-├── main.go         # Main entry point
-├── tools.go        # Utility functions (header checking, styling)
-└── bom.go          # BOM generation logic
+├── main.go               # Main entry point
+├── tools.go              # Utility functions
+├── bom.go                # BOM generation logic
+└── addRightClickMenu.ps1 # PowerShell script for adding right-click menu
 ```
 
 ## Contributing

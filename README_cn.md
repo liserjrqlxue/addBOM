@@ -71,7 +71,7 @@ go run main.go -i primer_ords.xlsx -o bom_output.xlsx
 
 ### 右键菜单运行
 
-对输入 excel `primer_ords.lsx` 文件右键弹出右键菜单，选择addBOM运行，生成 `primer_ords_BOM.xlsx`
+对输入 excel ``<input_ilename>.xlsx` 文件右键弹出右键菜单，选择addBOM运行，生成 `<input_ilename>_BOM.xlsx`
 
 ## 输入文件结构
 
@@ -106,13 +106,15 @@ go run main.go -i primer_ords.xlsx -o bom_output.xlsx
 ## 项目结构
 ```
 .
-├── main.go       # 主程序入口
-├── tools.go      # 工具函数集合
-└── bom.go        # BOM生成逻辑
+├── main.go                 # 主程序入口
+├── tools.go                # 工具函数集合
+├── bom.go                  # BOM生成逻辑
+└── addRightClickMenu.ps1   # PowerShell脚本用于添加右键菜单
 ```
 
 ## 贡献说明
 我们欢迎任何建议和反馈！请通过邮箱或GitHub与我们联系。
+```
 
 ## 许可证
 此项目采用 MIT 协议，具体内容见 [LICENSE](./LICENSE) 文件。
