@@ -1,4 +1,4 @@
-module addBOM
+module github.com/liserjrqlxue/addBOM
 
 go 1.24.0
 
