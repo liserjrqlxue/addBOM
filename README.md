@@ -25,7 +25,18 @@ This project reads data from an Excel file containing primer purchase order info
 
 ## Installation
 
+- Install directly
+
 ```bash
+go install liserjrqlxue/addBOM@latest
+```
+
+- Compiling from source code
+
+```bash
+git clone https://github.com/liserjrqlxue/addBOM.git
+cd addBOM
+
 go build #  create addBOM
 # or 
 go install # to $GOPATH/bin/addBOM

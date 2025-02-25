@@ -25,7 +25,18 @@
 
 ## 安装步骤
 
+- 直接安装
+
 ```bash
+go install liserjrqlxue/addBOM@latest
+```
+
+- 源码编译
+
+```bash
+git clone https://github.com/liserjrqlxue/addBOM.git
+cd addBOM
+
 go build #  create addBOM
 # or 
 go install # to $GOPATH/bin/addBOM
